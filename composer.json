@@ -35,14 +35,14 @@
     },
     "require-dev": {
         "illuminate/config": "^10.0",
-        "mockery/mockery": "^1.4.4",
+        "mockery/mockery": "^1.5",
         "orchestra/testbench": "^8.0",
         "laravel/legacy-factories": "^1.3",
         "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
-            "CyrildeWit\\EloquentViewable\\": "src/"
+            "klavuzer\\EloquentViewable\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -50,7 +50,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CyrildeWit\\EloquentViewable\\Tests\\": "tests/"
+            "klavuzer\\EloquentViewable\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -64,7 +64,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CyrildeWit\\EloquentViewable\\EloquentViewableServiceProvider"
+                "klavuzer\\EloquentViewable\\EloquentViewableServiceProvider"
             ]
         }
     }
