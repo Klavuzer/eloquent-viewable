@@ -1,9 +1,9 @@
 {
-    "name": "cyrildewit/eloquent-viewable",
+    "name": "klavuzer/eloquent-viewable",
     "description": "Laravel package that allows you to associate views with Eloquent models",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/cyrildewit/eloquent-viewable",
+    "homepage": "https://github.com/klavuzer/eloquent-viewable",
     "keywords": [
         "laravel",
         "eloquent",
@@ -42,7 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CyrildeWit\\EloquentViewable\\": "src/"
+            "klavuzer\\EloquentViewable\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -50,7 +50,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CyrildeWit\\EloquentViewable\\Tests\\": "tests/"
+            "klavuzer\\EloquentViewable\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -64,7 +64,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CyrildeWit\\EloquentViewable\\EloquentViewableServiceProvider"
+                "klavuzer\\EloquentViewable\\EloquentViewableServiceProvider"
             ]
         }
     }
