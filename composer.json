@@ -31,7 +31,7 @@
         "illuminate/http": "^10.0",
         "illuminate/support": "^10.0",
         "jaybizzle/crawler-detect": "^1.0",
-        "nesbot/carbon": "^2.53"  // Güncel versiyon
+        "nesbot/carbon": "^2.53" 
     },
     "require-dev": {
         "illuminate/config": "^10.0",
