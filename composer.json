@@ -16,10 +16,8 @@
     ],
     "authors": [
         {
-            "name": "Cyril de Wit",
-            "email": "info@cyrildewit.nl",
-            "homepage": "http://cyrildewit.nl",
-            "role": "Developer"
+            "name": "Huseyin Demirci",
+            "email": "klavuzer@gmail.com"
         }
     ],
     "require": {
